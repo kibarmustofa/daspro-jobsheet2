@@ -2,16 +2,16 @@ import java.util.Scanner;
 public class PemilihanPercobaan214 {
 
 public static void main(String[] args) {
-  Scanner input15 = new Scanner(System.in);
+  Scanner input14 = new Scanner(System.in);
  
   System.out.print("nilai uas      :");
-  float uas = input15.nextFloat();
+  float uas = input14.nextFloat();
   System.out.print("nilai uts      :");
-  float uts = input15.nextFloat();
+  float uts = input14.nextFloat();
   System.out.print("nilai kuis     :");
-  float kuis = input15.nextFloat(); 
+  float kuis = input14.nextFloat(); 
   System.out.print("nilai tugas    :");
-  float tugas = input15.nextFloat(); 
+  float tugas = input14.nextFloat(); 
 
   float nilai = (uas * 0.4F) + (uts * 0.3F) + (kuis * 0.1F) + (tugas * 0.2F);
   
