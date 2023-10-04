@@ -14,13 +14,15 @@ public class Pemilihan2Percobaan214 {
         totalsudut = sudut1+sudut2+sudut3; 
      
         if (totalsudut == 180){
-            if ((sudut1 == 90) || (sudut2 == 90) || (sudut3 == 90))
+        } else if ((sudut1 == 90) || (sudut2 == 90) || (sudut3 == 90)) {
                 System.out.println("Segitiga tersebut adalah segitiga siku-siku");
-            else
-                System.out.println("Segitiga tersebut adalah bukan segitiga siku-siku");
-        } else 
-                System.out.println("Bukan Segitiga");
+        } else if ((sudut1 == sudut2)&&( sudut2 == sudut3)) {
+                System.out.println("Segitiga tersebut adalah segitiga sama sisi");
+        } else if ((sudut1 == sudut3)||(sudut2 == sudut3)||(sudut1 == sudut2)) {
+                System.out.println("Segitiga tersebut adalah segitiga sama Kaki");
+        } else {
+                System.out.println("segitiga sembarang");
     }
+  }
 }
-
  
