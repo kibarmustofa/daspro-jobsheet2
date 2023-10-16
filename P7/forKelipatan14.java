@@ -16,8 +16,11 @@ public class forKelipatan14 {
                 counter++;
             }   
         }    
+        //rata-rata = hasil total / jumblah data 
+        double rata = (double) total / counter;
+
         System.out.printf("Banyaknya bilangan %d dari 1 sampai 50 adalah %d\n",kelipatan, counter );
         System.out.printf("Total bilangan keipatan %d dari 1 sampai 50 persen adalah %d\n", kelipatan, total );
-         
+        System.out.printf("Rata-rata bilangan kelipatan %d dari 1 sampai 50 adalah %.2f\n", kelipatan, rata); 
     }
 }
