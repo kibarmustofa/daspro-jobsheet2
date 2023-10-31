@@ -22,5 +22,11 @@ public class Bioskop14 {
         System.out.printf("%s \t %s \n", penonton[2][0],penonton[2][1]);
         System.out.printf("%s \t %s \n", penonton[3][0],penonton[3][1]);
         // print tampilan dan memanggil array menggunakan print format
+       
+        System.out.println("penonton baris ke-3: ");
+
+        for (int i = 0; i < penonton[2].length; i++) {
+            System.out.println(penonton[2][1]);
+        }
     }
 }
