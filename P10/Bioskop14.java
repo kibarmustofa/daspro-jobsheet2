@@ -1,13 +1,13 @@
 public class Bioskop14 {
     public static void main (String[] args) {
-        String[][] penonton = new String[4][2];
+        String[][] penonton = new String[4][2]; // deklarasi ARRAY
 
         System.out.println(penonton.length);
 
-        for (int i = 0; i < penonton.length; i++) {
+        for (int i = 0; i < penonton.length; i++) {  // for loop
             System.out.println("Panjang baris ke-" + (i+1) + ":" + penonton[i].length);
         }
-        penonton[0][0] = "Amin";  //deklarasi ARRAY 
+        penonton[0][0] = "Amin";  // input array
         penonton[0][1] = "Bena";
         penonton[1][0] = "candra";
         penonton[1][1] = "Dela";
