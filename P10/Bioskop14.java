@@ -24,8 +24,9 @@ public class Bioskop14 {
         // print tampilan dan memanggil array menggunakan print format
         System.out.println("penonton baris ke-3: ");
 
-        for (String i : penonton[2]) {
-            System.out.println(i);
+        for (int i = 0; i < penonton.length; i++) {
+            System.out.println("Penonton pada baris ke-" + ":" + String.join("," , penonton[i]));
+
         }
     }
 }
